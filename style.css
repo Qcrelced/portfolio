@@ -175,6 +175,31 @@ section{
     border-radius: 64px;
 }
 
+.cta-eq{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.voir-eq{
+    background-color: #0c54f0;
+    padding: 12px 18px;
+    border-radius: 32px;
+}
+
+.langage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.langage img{
+    width: 125px;
+    height: 125px;
+}
+
 footer{
     display: flex;
     justify-content: center;
@@ -189,6 +214,7 @@ footer{
 footer h2{
     font-weight: 600;
     font-size: 42px;
+    text-align: center;
 }
 footer p{
     font-weight: 400;
