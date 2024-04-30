@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+:root{
+    
+    /*===== theme color =====*/
+    --cta-color: #150283;
+    --black-color: rgb(5,5,5);
+    --font-white: rgb(245, 245, 245);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/topo.jpg);
+    background-repeat: repeat;
+    background-size: auto;
+    background-attachment: fixed;
+}
+
+a:visited{
+    color: var(--font-white);
+}
+
+a{
+   color: var(--font-white); 
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 12px;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    font-size: 22px;
+}
+
+.nav{
+    width: 100%;
+    height: 10vh;
+    color: var(--font-white);
+    background-color: var(--black-color);
+    font-weight: 600;
+}
+
+.ul-nav{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+section{
+    margin-top: 28px;
+    background-color: white;
+    width: 80%;
+    box-shadow: 0px 0px 12px rgb(210, 210, 210);
+    padding: 56px;
+    border-radius: 18px;
+}
+
+.grande-img{
+    width: auto;
+    height: 300px;
+    max-width: 500px;
+}
+
+.box-title{
+    display: flex;
+    gap: 12px;
+}

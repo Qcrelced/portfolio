@@ -23,6 +23,7 @@
 a:visited{
     color: var(--font-white);
 }
+
 a{
    color: var(--font-white); 
 }
@@ -50,6 +51,14 @@ header{
     color: var(--font-white);
     background-color: var(--black-color);
     font-weight: 600;
+}
+
+.nav a:hover, footer a{
+    transition: 0.2s;
+}
+
+.nav a:hover, footer a:hover{
+    color: rgba(245, 245, 245, 0.8);
 }
 
 .ul-nav{
@@ -110,6 +119,13 @@ section{
     background-color: #e9e9e9;
     gap: 18px;
     box-shadow: 4px 0px 12px rgb(210, 210, 210);
+    transition: 0.3s;
+    color: black;
+}
+
+.carte:hover{
+    box-shadow: 4px 0px 12px rgb(195, 195, 195);
+    transform: scale3d(1.01, 1.01, 1.01);
 }
 
 .carte-infos{
@@ -135,18 +151,6 @@ section{
     align-items: end;
 }
 
-.icons{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 38px;
-    width: 38px;
-    background-color: #0c54f0;
-    color: white;
-    font-size: 20px;
-    border-radius: 64px;
-}
-
 .formations{
     flex-direction: column !important;
     gap: 6px
@@ -155,6 +159,23 @@ section{
 .formation{
     display: flex;
     gap: 32px;
+}
+
+.cta-eq {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.voir-eq{
+    background-color: #0c54f0;
+    padding: 12px 18px;
+    border-radius: 32px;
+    transition: 0.3s;
+}
+
+.voir-eq:hover{
+    background-color: #0b47ca;
 }
 
 .object{
@@ -173,18 +194,6 @@ section{
     width: 4px;
     background-color: black;
     border-radius: 64px;
-}
-
-.cta-eq{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.voir-eq{
-    background-color: #0c54f0;
-    padding: 12px 18px;
-    border-radius: 32px;
 }
 
 .langage{
