@@ -109,11 +109,13 @@ section{
     margin-left: 20%;
     width: 60%;
     gap: 18px;
+    flex-flow: row wrap;
 }
 
 .section-content span{
     color: #0c54f0;
 }
+
 
 .carte{
     display: flex;
