@@ -77,6 +77,10 @@ section{
     border-radius: 18px;
 }
 
+.autres a{
+    color: black;
+}
+
 .grande-img{
     width: auto;
     height: 300px;

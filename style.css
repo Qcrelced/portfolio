@@ -107,7 +107,12 @@ section{
 .section-content{
     display: flex;
     margin-left: 20%;
+    width: 60%;
     gap: 18px;
+}
+
+.section-content span{
+    color: #0c54f0;
 }
 
 .carte{
@@ -165,6 +170,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 12px;
 }
 
 .voir-eq{
@@ -176,6 +182,13 @@ section{
 
 .voir-eq:hover{
     background-color: #0b47ca;
+}
+
+.reseaux{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.reseaux:hover{
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .object{
